@@ -69,3 +69,5 @@
   * Execute `./gradlew refreshVersions`, then inspect `refreshVersions` file for available updated versions of the dependencies. Keep only latest stable releases, non-stable releases can be permitted in exceptional cases, e.g. to prevent compatibility issues across the build or dependency chains.
   * Build the whole project to prove the version update has succeeded, rollback failing component updates, if any, iterate until a success.
   * In a case when github workflows are used, check for updated GitHub Actions and apply them.
+
+* When adding a GitHub Action to a workflow, look up its latest release on GitHub first and use that version.
